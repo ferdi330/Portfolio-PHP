@@ -1,0 +1,124 @@
+footer {
+  background: rgba(17, 17, 17, 0.726);
+  width: 100%;
+  font-family: "Open Sans";
+  color: #fff;
+  display: flex;
+  display: inline-block;
+}
+
+.container-c {
+  margin: auto;
+  width: 100%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.filler-c {
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+
+.footer-content {
+  float: left;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.footer-content h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: capitalize;
+  font-style: italic;
+}
+.footer-content p {
+  font-size: 17px;
+  font-style: italic;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+.footer-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  background: rgba(228, 225, 225, 0.096);
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  border-style: solid;
+  border: black;
+  float: left;
+}
+.footer-bottom p {
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span {
+  text-transform: uppercase;
+  opacity: 0.4;
+  font-weight: 200;
+}
+
+@media only screen and (max-width: 1100px) {
+  .container-c {
+    width: 96%;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .filler-c {
+    width: 25%;
+  }
+
+  .footer-content h3 {
+    font-size: 15px;
+  }
+
+  .footer-content p {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .container-c {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer-content h3 {
+    font-size: 17px;
+    text-align: center;
+  }
+
+  .filler-c {
+    width: 100%;
+    float: left;
+    text-align: left;
+  }
+
+  .footer-content p {
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: center;
+  }
+
+  .footer-bottom p {
+    font-size: 12px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+  }
+}
+
+/* 959 - 767 - 479 */

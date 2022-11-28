@@ -1,0 +1,750 @@
+/* 959 - 767 - 479 */
+header {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.responsive {
+  width: 80%;
+  height: 80%;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 55px;
+  border-radius: 20px;
+}
+
+.responsive-world {
+  width: 30%;
+  height: 10%;
+  display: flex;
+  margin-top: 50px;
+  margin-right: 250px;
+  float: right;
+}
+
+.border-box {
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2a2a2a;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  max-width: 75%;
+  margin: auto;
+}
+
+.opmaak_tekst {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  white-space: pre-wrap;
+}
+
+.opmaak_tekst_header {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(0, 119, 255);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.menu {
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+}
+.menu li {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.menu li a {
+  text-decoration: none;
+}
+.spacre {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  float: left;
+  width: 100%;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.boxer {
+  font-style: italic;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin-left: 50px;
+}
+f .boxer p {
+  width: 75%;
+  padding-top: 2%;
+}
+/* CSS dus geen flex*/
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.centerp {
+  text-align: center;
+  font-size: 21px;
+  margin-top: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-center {
+  text-align: center;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.tekst1 > p {
+  width: 100%;
+}
+
+.tekst1 {
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px black;
+  font-size: 23px;
+  line-height: 20px;
+}
+
+.color {
+  color: rgb(255, 166, 0);
+  font-size: 24px;
+  font-style: italic;
+  text-shadow: 0.1px 0.1px black;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(260deg, #ffffff 0%, #bcbdba 100%);
+}
+
+.bb {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 100;
+  padding: 5px 5px;
+  display: inline-block;
+  max-width: 300px;
+  transition: all 0.5s;
+  border-radius: 5px;
+  background-color: #2a2a2a;
+}
+
+.bb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.bbb {
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  padding: 5px 5px;
+  transition: all 0.5s;
+  border-radius: 5px;
+  background-color: #33333300;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.bbb:hover {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.content_left {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  float: left;
+}
+
+/* Flex gedeelte... */
+
+.flex-nav ul {
+  list-style: none;
+  margin: 1px;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-nav li {
+  flex: 3;
+  flex-basis: 100%;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+.flex-nav .social {
+  flex: 1;
+}
+
+@media all and (min-width: 500px) {
+  .flex-nav li {
+    flex-basis: 50%;
+  }
+
+  .flex-nav .social {
+    flex-basis: 25%;
+  }
+}
+
+@media all and (min-width: 1000px) {
+  .flex-nav li {
+    flex-basis: auto;
+  }
+
+  .flex-nav .social {
+    flex-basis: auto;
+  }
+}
+
+header {
+  text-align: center;
+  font-size: 10px;
+}
+
+.container-expert {
+  margin: auto;
+
+  padding-bottom: 1%;
+}
+
+.card-01 {
+  float: left;
+  width: 50%;
+  padding-right: 40px;
+  padding-left: 0;
+  margin-bottom: 50px;
+}
+.card-01:nth-child(2n) {
+  padding-right: 0;
+  padding-left: 40px;
+}
+/* projecten */
+
+.btn {
+  background-color: rgba(13, 108, 197, 0.219);
+  border-style: ridge;
+  border-width: 1px;
+  float: left;
+  margin-right: 50px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  max-width: 100px;
+  width: 100%;
+}
+
+.-project {
+  background-size: cover;
+}
+
+.project-left {
+  width: 50%;
+  text-align: left;
+}
+
+.project-text > p {
+  margin-top: 35px;
+  font-size: 18px;
+}
+
+.project-text > p > a {
+  color: rgb(14, 188, 219);
+  text-decoration: none;
+  border-style: hidden;
+  border-width: medium;
+}
+
+.project-text > p > a > i {
+  padding-right: 10px;
+}
+
+.project-text {
+  width: 50%;
+  float: left;
+}
+
+.project-text > h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.container-project {
+  float: left;
+  background-color: rgba(168, 113, 113, 0.075);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.project-right {
+  float: right;
+  width: 47%;
+  padding-left: 3%;
+}
+
+/* contact css  */
+
+.contact-content {
+  float: left;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.164);
+  font-family: "Open Sans", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.container-contact {
+  margin: auto;
+  width: 1100px;
+}
+
+.filler-contact {
+  width: 100%;
+  text-align: left;
+}
+
+.contentt {
+  background-color: rgba(13, 108, 197, 0.164);
+  padding-left: 25%;
+  padding-right: 25%;
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.contact-left {
+  text-align: left;
+  float: left;
+  width: 50%;
+}
+
+.contact-right {
+  text-align: left;
+  float: right;
+}
+
+.content {
+  float: left;
+  width: 100%;
+  background-color: rgba(13, 108, 197, 0.164);
+  font-family: "Open Sans", sans-serif;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.project-button {
+  margin-top: 50px;
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+/* Contact opmaak */
+
+.container-background {
+  float: left;
+  background-color: rgba(128, 128, 128, 0.075);
+  padding-top: 35px;
+  padding-bottom: 35px;
+  width: 100%;
+}
+
+.center-contact {
+  font-weight: bold;
+  width: 100%;
+}
+
+.space-contact {
+  padding: 2px;
+}
+
+.max {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.space-contact-bericht {
+  font-weight: bold;
+}
+
+.-world {
+  max-width: 400px;
+  flex-basis: 40%;
+  margin-left: 150px;
+}
+
+/* LABEL en INPUTS */
+
+label {
+  font-size: 18px;
+  color: #333;
+  height: 20px;
+  width: 200px;
+  margin-top: 10px;
+  text-align: left;
+  margin-right: 15px;
+  float: left;
+}
+
+input {
+  height: 20px;
+  width: 300px;
+  border: 1px solid #000;
+  margin-top: 10px;
+}
+
+.button {
+  height: 20px;
+  width: 150px;
+  border: 1px solid #000;
+  margin-top: 10px;
+  float: right;
+  background-color: color(srgb 0.315 0.524 0.786 / 0.63);
+}
+
+.userInput {
+  border: 1px solid #000;
+  margin: 1px;
+  padding: 1px;
+  width: 300px;
+  height: 200px;
+  resize: none;
+  margin-top: 10px;
+}
+
+.form-group {
+  margin-top: 15px;
+}
+
+.form-left {
+  float: left;
+}
+
+.-contact {
+  width: 100%;
+  height: 100%;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 55px;
+  float: right;
+}
+
+@media (max-width: 1100px) {
+  .filler-contact {
+    visibility: hidden;
+  }
+  .userInput {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 1px;
+    width: 250px;
+    height: 200px;
+    resize: none;
+    margin-top: 10px;
+  }
+
+  label {
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 15px;
+    float: left;
+  }
+
+  input {
+    height: 20px;
+    width: 250px;
+    border: 1px solid #000;
+    margin-top: 10px;
+  }
+
+  .contact-left {
+    text-align: left;
+    float: left;
+  }
+
+  .contact-right {
+    text-align: left;
+    float: right;
+  }
+
+  .container-contact {
+    float: left;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .container-contact-two {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .boxer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-style: italic;
+    width: 100%;
+  }
+
+  .tekst2 p {
+    width: 100%;
+  }
+}
+/* Verticaal tablet */
+@media (max-width: 959px) {
+  .container-project {
+    float: left;
+    background-color: rgba(168, 113, 113, 0.075);
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .project-text > h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+
+  .project-text {
+    width: 100%;
+    float: left;
+  }
+
+  .project-text > p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn {
+    float: none;
+    width: 25%;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .-project {
+    float: left;
+    background-size: cover;
+    height: auto;
+    margin: auto;
+  }
+
+  .project-right {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+    padding-left: 0;
+    margin-right: 25px;
+  }
+
+  .container-project {
+    float: left;
+    background-color: rgba(168, 113, 113, 0.075);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .filler-contact-middle {
+    width: 30%;
+    float: left;
+    visibility: hidden;
+  }
+
+  .project-button {
+    margin-top: 50px;
+    float: left;
+    width: 100%;
+    text-align: center;
+  }
+
+  .userInput {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 1px;
+    width: 250px;
+    height: 200px;
+    resize: none;
+    margin-top: 10px;
+  }
+
+  label {
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    text-align: left;
+    margin-right: 15px;
+    float: left;
+  }
+
+  input {
+    height: 20px;
+    width: 250px;
+    border: 1px solid #000;
+    margin-top: 10px;
+  }
+
+  .contact-left {
+    text-align: left;
+    float: left;
+  }
+
+  .contact-right {
+    text-align: left;
+    float: right;
+  }
+}
+/* Horizontaal mobiel */
+@media (max-width: 767px) {
+  .userInput {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 1px;
+    width: 200px;
+    height: 200px;
+    resize: none;
+    margin-top: 10px;
+  }
+
+  label {
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 150px;
+    margin-top: 10px;
+    text-align: left;
+    float: left;
+  }
+
+  input {
+    height: 20px;
+    width: 200px;
+    border: 1px solid #000;
+    margin-top: 10px;
+  }
+
+  .contact-left {
+    text-align: left;
+    float: left;
+    width: 50%;
+  }
+
+  .contact-right {
+    text-align: left;
+    float: right;
+  }
+
+  .card-01 {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .card-01:nth-child(2n) {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+/* Verticaal mobiel */
+@media (max-width: 479px) {
+  .max {
+    padding-left: 15px;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .filler-contact {
+    padding-left: 15px;
+    width: 100%;
+    text-align: left;
+  }
+
+  .userInput {
+    border: 1px solid #000;
+    margin: 1px;
+    padding: 1px;
+    width: 150px;
+    height: 200px;
+    resize: none;
+    margin-top: 10px;
+  }
+
+  label {
+    font-size: 18px;
+    color: #333;
+    height: 20px;
+    width: 125px;
+    margin-top: 10px;
+    text-align: left;
+    float: left;
+  }
+
+  input {
+    height: 20px;
+    width: 150px;
+    border: 1px solid #000;
+    margin-top: 10px;
+  }
+
+  .contact-left {
+    padding-bottom: 15px;
+    padding-left: 15px;
+    text-align: left;
+    float: left;
+    width: 100%;
+  }
+
+  .contact-right {
+    padding-left: 15px;
+    text-align: left;
+    float: left;
+    width: 100%;
+  }
+
+  .menu li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

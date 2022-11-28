@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+  background-image: linear-gradient(260deg, #ebeff0 0%, #ebe9d7da 100%);
+}
+
+/* ___________________________________________________________________________ */
+
+/* Header START */
+
+.header_title_border {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+  max-width: 35%;
+  border-style: groove;
+  border-color: rgba(0, 0, 0, 0.616);
+  border-radius: 300px;
+  background-color: rgba(255, 255, 255, 0.774);
+  padding: 5px;
+}
+
+.header_title_name {
+  margin-top: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.header_title_tekst {
+  margin-top: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+/* Header END */
+
+/* ___________________________________________________________________________ */
+
+/* Main START */
+
+.main_inlog_box {
+  margin: auto;
+  margin-top: 15px;
+  max-width: 25%;
+}
+
+.main_link_forgotten {
+  color: black;
+  margin-left: 15px;
+  padding: 5px;
+  font-weight: bolder;
+}
+
+.main_link_create {
+  color: black;
+  margin-left: 15px;
+  padding: 5px;
+  font-weight: bolder;
+  text-shadow: 0.1px 0.1px black;
+}
+
+.main_inlog_border {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.616);
+  margin: auto;
+  margin-top: 75px;
+  max-width: 25%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  font-weight: bolder;
+}
+
+.main_inlogger_border {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.616);
+  margin: auto;
+  margin-top: 75px;
+  max-width: 50%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  font-weight: bolder;
+}
+
+
+.main_inlog_image {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.main_inlog_form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.main_inlog_formgroup {
+  color: black;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.rmbr_form {
+  font-weight: bolder;
+  font-size: 12px;
+}
+
+.footer_bottom {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+/* Main END */
+
+
+
+/* ___________________________________________________________________________ */

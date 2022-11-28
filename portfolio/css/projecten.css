@@ -1,0 +1,230 @@
+.row {
+  float: left;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+
+.box{
+  margin-top: 30px;
+  margin-bottom: 30px; 
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.a-project a {
+  color: rgb(162, 46, 46);
+  text-decoration: none;
+}
+
+
+.box-01 {
+  float: left;
+  width: 50%;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #86a4b900;
+  border-radius: 5px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+
+@media (max-width: 1100px) {
+}
+/* Verticaal tablet */
+@media (max-width: 959px) {
+}
+/* Horizontaal mobiel */
+@media (max-width: 767px) {
+}
+/* Verticaal mobiel */
+@media (max-width: 479px) {
+}
+
+@media (max-width: 800px) {
+  .card-01 {
+    flex: 100%;
+    max-width: 600px;
+  }
+
+  .content-main {
+    flex: 100%;
+    flex-wrap: wrap;
+  }
+}
+
+
+.projecten-image {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+.bg_project_image_padding {
+  float: left;
+  width: 100%;
+  padding: 10px;
+}
+.bg_project_image {
+  float: left;
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.dde {
+  background-color: transparent;
+  border-radius: 20px;
+  width: 100%;
+}
+
+#toggleContainer label {
+  text-align: center;
+  width: 70px;
+}
+
+#container {
+  height: 60vh;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#toggleContainer {
+  height: 10vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 95vw;
+  position: absolute;
+}
+
+.tileItem:hover {
+  transform: scale(1.05);
+  transition: all 0.5s ease;
+}
+
+#galleryContainer {
+  height: 500px;
+  width: 800px;
+  background: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+}
+
+#toggle {
+  height: 10vh;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+#galleryView {
+  height: 55vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#outer3.outerActive {
+  background-color: white;
+  border: 2px solid white;
+  transition: all 0.5s;
+}
+
+#mainView {
+  height: 450px;
+  width: 450px;
+  border-radius: 5px;
+  background-color: #eb9100;
+  margin-left: 10px;
+  margin-right: 10px;
+  z-index: 1;
+  transition: all 1s;
+}
+
+#mainView:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+#leftView {
+  height: 400px;
+  width: 150px;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform: skewy(5deg);
+  transform-origin: top right;
+  background-color: #eb9100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+#leftView:hover {
+  opacity: 1;
+  transition: all 1s;
+}
+
+#rightView {
+  height: 400px;
+  width: 150px;
+  opacity: 0.5;
+  border-radius: 5px;
+  transform: skewy(-5deg);
+  transform-origin: top left;
+  background-color: #eb9100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 1s;
+}
+
+#rightView:hover {
+  opacity: 1;
+  transition: all 1s;
+}
+
+.navBtns {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  opacity: 0.8;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+
+.navBtns:hover {
+  opacity: 1;
+  transition: all 1s;
+  background-color: #eb9100ab;
+}
+
+#navLeft {
+  left: 50px;
+}
+
+#navRight {
+  right: 50px;
+}
+
+#linkTag {
+  cursor: pointer;
+  z-index: 1;
+  box-sizing: border-box;
+}
+
+.box-box {
+  padding: 10px;
+}
